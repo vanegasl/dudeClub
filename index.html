@@ -6,9 +6,9 @@
 	<link rel="shortcut icon" href="favicon.ico">
 </head>
 <script>
-    function changeColor(){
-        document.body.style.backgroundColor = "lightblue";
-        //document.querySelector("class").style.backgroundColor = "red";
+    function changeColor(color){
+		
+        document.body.style.backgroundColor = color;
     }
 </script>
 <body bgcolor="lightgreen">
@@ -18,11 +18,17 @@
 <img src="nintendo.jpg"/>
 <p>Daily challenge:</p>
 <br>
-<a href="http://www.coolmathgames.com" target="_blank" >Cool math games </a>
+<a href="http://www.coolmathgames.com" target="_blank" onclick="javascript:alert('Thank you for trying the daily challenge, come back soon!');">Cool math games </a>
 
 <br>
 Try out our change color buttton
-<input type="button" label="push me" onclick="javascript:changeColor();" />
+<input type="button" value="push me" onclick="javascript:changeColor();" />
+<br>
+<a href="#" onclick="javascript:changeColor('lightblue');">What about blue</a>
+<br>
+<a href="#" onclick="javascript:changeColor('lightgreen');">What about green</a>
+<br>
+<a href="#" onclick="javascript:changeColor('red');">What about red</a>
 
 </body>
 </html>
