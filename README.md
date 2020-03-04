@@ -1,2 +1,2 @@
 # dudeClub
-Dude Clib
+Dude Club
